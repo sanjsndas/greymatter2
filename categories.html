@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categories — Grey Matter Homes | Explore by Topic</title>
+  <meta name="description" content="Browse all categories on Grey Matter Homes — from architecture and interiors to materials, sustainability, and design history.">
+  <meta name="author" content="Grey Matter Homes Editorial Team">
+  <link rel="canonical" href="https://www.greymatterhomes.com/categories.html">
+  <meta property="og:title" content="Categories — Grey Matter Homes">
+  <meta property="og:description" content="Browse all categories on Grey Matter Homes — from architecture and interiors to materials, sustainability, and design history.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.greymatterhomes.com/categories.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Categories — Grey Matter Homes">
+  <meta name="twitter:description" content="Browse all categories on Grey Matter Homes — from architecture and interiors to materials, sustainability, and design history.">
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #faf9f7;
+      color: #1e1e1e;
+      font-family: 'Georgia', 'Times New Roman', 'Palatino', serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Helvetica Neue', 'Arial', sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      color: #1a1a1a;
+    }
+
+    h1 { font-size: 2.4rem; margin-bottom: 0.6rem; }
+    h2 { font-size: 1.9rem; margin-bottom: 0.5rem; }
+    h3 { font-size: 1.4rem; margin-bottom: 0.4rem; }
+    h4 { font-size: 1.15rem; margin-bottom: 0.3rem; }
+    p { margin-bottom: 1.2rem; font-size: 1.06rem; color: #2a2a2a; }
+    a { color: #2a2a2a; text-decoration: none; transition: color 0.2s; }
+    a:hover { color: #7a5c3a; }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      border-bottom: 1px solid #e0ddd8;
+      background: #faf9f7;
+      padding: 24px 0 16px;
+    }
+
+    .header-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 2.1rem;
+      font-weight: 600;
+      letter-spacing: -0.04em;
+      color: #1e1e1e;
+    }
+
+    .brand-logo span {
+      font-weight: 300;
+      color: #7a5c3a;
+    }
+
+    .brand-tagline {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: #7a7a7a;
+      border-left: 1px solid #d0cdc8;
+      padding-left: 12px;
+    }
+
+    .header-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 450;
+      color: #3a3a3a;
+      list-style: none;
+    }
+
+    .header-nav a {
+      color: #3a3a3a;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 2px;
+    }
+
+    .header-nav a:hover {
+      border-bottom-color: #7a5c3a;
+      color: #1e1e1e;
+    }
+
+    /* ---------- HERO (categories) ---------- */
+    .categories-hero {
+      margin: 48px 0 32px;
+      max-width: 880px;
+    }
+
+    .categories-hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 12px;
+      letter-spacing: -0.03em;
+    }
+
+    .categories-hero .meta {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.9rem;
+      color: #7a7a7a;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .categories-hero .lead {
+      font-size: 1.15rem;
+      color: #4a4a4a;
+      max-width: 760px;
+    }
+
+    /* ---------- CATEGORY GRID ---------- */
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin: 40px 0 64px;
+    }
+
+    @media (max-width: 900px) {
+      .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 550px) {
+      .category-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+    }
+
+    .category-card {
+      background: #ffffff;
+      border: 1px solid #e8e5e0;
+      border-radius: 2px;
+      padding: 28px 24px 24px;
+      transition: box-shadow 0.2s ease, border-color 0.2s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .category-card:hover {
+      border-color: #c9b9a8;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    .category-card .category-icon {
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+      line-height: 1;
+      color: #7a5c3a;
+    }
+
+    .category-card h2 {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+
+    .category-card h2 a {
+      color: #1a1a1a;
+    }
+
+    .category-card h2 a:hover {
+      color: #7a5c3a;
+    }
+
+    .category-card .count {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #9a8a7a;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .category-card p {
+      font-size: 0.98rem;
+      color: #4a4a4a;
+      margin-bottom: 18px;
+      flex: 1;
+    }
+
+    .category-card .category-link {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #7a5c3a;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 2px;
+      align-self: flex-start;
+      transition: border-color 0.2s;
+    }
+
+    .category-card .category-link:hover {
+      border-bottom-color: #7a5c3a;
+      color: #1e1e1e;
+    }
+
+    /* ---------- FEATURED / QUICK LINKS ---------- */
+    .featured-section {
+      margin: 32px 0 64px;
+      padding: 40px 0 8px;
+      border-top: 1px solid #e0ddd8;
+    }
+
+    .featured-section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 24px;
+      letter-spacing: -0.02em;
+    }
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    @media (max-width: 600px) {
+      .featured-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .featured-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .featured-item .featured-number {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #b0a090;
+      min-width: 28px;
+    }
+
+    .featured-item h4 {
+      font-size: 1.05rem;
+      margin-bottom: 4px;
+    }
+
+    .featured-item h4 a {
+      color: #1a1a1a;
+    }
+
+    .featured-item h4 a:hover {
+      color: #7a5c3a;
+    }
+
+    .featured-item p {
+      font-size: 0.9rem;
+      color: #6a6a6a;
+      margin-bottom: 0;
+    }
+
+    /* ---------- INFO SECTIONS (shared) ---------- */
+    .info-sections {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      margin: 64px 0 32px;
+      padding-top: 48px;
+      border-top: 1px solid #e0ddd8;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    @media (max-width: 800px) {
+      .info-sections {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .info-sections {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    .info-sections h4 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #7a7a7a;
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+
+    .info-sections p,
+    .info-sections li {
+      font-size: 0.9rem;
+      color: #3a3a3a;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .info-sections ul {
+      list-style: none;
+    }
+
+    .info-sections a {
+      color: #3a3a3a;
+    }
+
+    .info-sections a:hover {
+      color: #7a5c3a;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      border-top: 1px solid #e0ddd8;
+      padding: 40px 0 32px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.85rem;
+      color: #7a7a7a;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+    }
+
+    .footer-links a {
+      color: #7a7a7a;
+    }
+
+    .footer-links a:hover {
+      color: #1e1e1e;
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 800px) {
+      .categories-hero h1 {
+        font-size: 2.1rem;
+      }
+      .categories-hero {
+        margin-top: 32px;
+      }
+      .category-card {
+        padding: 22px 20px 20px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .legal-content ul, .legal-content ol {
+        margin-left: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-logo">Grey Matter <span>Homes</span></div>
+        <div class="brand-tagline">Interior & Architecture Journal</div>
+      </div>
+      <nav aria-label="Primary navigation">
+        <ul class="header-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ========== CATEGORIES HERO ========== -->
+    <section class="categories-hero">
+      <div class="meta">Browse · All Topics</div>
+      <h1>Categories</h1>
+      <p class="lead">Explore our journal by topic — from architectural theory and interior styling to material innovation, sustainability, and the people shaping the built environment.</p>
+    </section>
+
+    <!-- ========== CATEGORY GRID ========== -->
+    <div class="category-grid">
+
+      <article class="category-card">
+        <div class="category-icon" aria-hidden="true">◈</div>
+        <h2><a href="#">Architecture</a></h2>
+        <span class="count">42 Articles</span>
+        <p>Residential and public architecture, urbanism, adaptive reuse, and the critical conversations defining contemporary practice.</p>
+        <a class="category-link" href="#">Explore →</a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon" aria-hidden="true">◈</div>
+        <h2><a href="#">Interiors</a></h2>
+        <span class="count">38 Articles</span>
+        <p>Interior design, spatial planning, styling, and the details that turn a house into a home — from lighting to layout.</p>
+        <a class="category-link" href="#">Explore →</a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon" aria-hidden="true">◈</div>
+        <h2><a href="#">Materials</a></h2>
+        <span class="count">27 Articles</span>
+        <p>Timber, stone, concrete, glass, and emerging composites. How material choice shapes form, performance, and feel.</p>
+        <a class="category-link" href="#">Explore →</a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon" aria-hidden="true">◈</div>
+        <h2><a href="#">Sustainability</a></h2>
+        <span class="count">31 Articles</span>
+        <p>Passive design, energy efficiency, low-carbon construction, and the push for a more responsible built environment.</p>
+        <a class="category-link" href="#">Explore →</a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon" aria-hidden="true">◈</div>
+        <h2><a href="#">Design History</a></h2>
+        <span class="count">19 Articles</span>
+        <p>Movements, figures, and ideas that shaped architecture and interiors — and why they still matter today.</p>
+        <a class="category-link" href="#">Explore →</a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon" aria-hidden="true">◈</div>
+        <h2><a href="#">Profiles</a></h2>
+        <span class="count">24 Articles</span>
+        <p>Conversations with architects, designers, makers, and thinkers who are redefining the field.</p>
+        <a class="category-link" href="#">Explore →</a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon" aria-hidden="true">◈</div>
+        <h2><a href="#">Guides</a></h2>
+        <span class="count">22 Articles</span>
+        <p>Practical, research-driven guides for renovating, building, and specifying — written for professionals and enthusiasts alike.</p>
+        <a class="category-link" href="#">Explore →</a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon" aria-hidden="true">◈</div>
+        <h2><a href="#">Technology</a></h2>
+        <span class="count">15 Articles</span>
+        <p>Smart homes, digital fabrication, BIM, and the tools changing how we design, build, and live.</p>
+        <a class="category-link" href="#">Explore →</a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon" aria-hidden="true">◈</div>
+        <h2><a href="#">Travel & Place</a></h2>
+        <span class="count">18 Articles</span>
+        <p>Architectural destinations, regional vernacular, and the relationship between buildings and their landscapes.</p>
+        <a class="category-link" href="#">Explore →</a>
+      </article>
+
+    </div><!-- /.category-grid -->
+
+    <!-- ========== FEATURED / QUICK LINKS ========== -->
+    <section class="featured-section">
+      <h2>Featured this month</h2>
+      <div class="featured-grid">
+        <div class="featured-item">
+          <span class="featured-number">01</span>
+          <div>
+            <h4><a href="#">The Quiet Power of Passive Design</a></h4>
+            <p>How orientation, shading, and thermal mass can cut energy use — without sacrificing comfort or style.</p>
+          </div>
+        </div>
+        <div class="featured-item">
+          <span class="featured-number">02</span>
+          <div>
+            <h4><a href="#">Inside a Restored 1920s Concrete Loft</a></h4>
+            <p>A sensitive renovation that honours raw material while introducing warmth and light.</p>
+          </div>
+        </div>
+        <div class="featured-item">
+          <span class="featured-number">03</span>
+          <div>
+            <h4><a href="#">Timber in the 21st Century</a></h4>
+            <p>Mass timber, CLT, and the new generation of engineered wood products transforming construction.</p>
+          </div>
+        </div>
+        <div class="featured-item">
+          <span class="featured-number">04</span>
+          <div>
+            <h4><a href="#">In Conversation: Studio Nora</a></h4>
+            <p>An emerging practice blending craft, digital tools, and a deep respect for place.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INFO SECTIONS (ABOUT / CONTACT / PRIVACY / FOLLOW) ========== -->
+    <div class="info-sections" id="info">
+      <div>
+        <h4>About</h4>
+        <p>Grey Matter Homes is an independent editorial publication dedicated to interior design, architecture, and the built environment. We publish in-depth articles, research, and practical guides for professionals and enthusiasts.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Editorial: <a href="mailto:editor@greymatterhomes.com">editor@greymatterhomes.com</a></p>
+        <p>Advertising: <a href="mailto:ads@greymatterhomes.com">ads@greymatterhomes.com</a></p>
+        <p>We welcome pitches and story ideas.</p>
+      </div>
+      <div>
+        <h4>Privacy & Terms</h4>
+        <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+        <p><a href="cookies.html">Cookie Policy</a> · <a href="#">Accessibility</a></p>
+        <p>© 2025 Grey Matter Homes. All rights reserved.</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p><a href="#">Instagram</a> · <a href="#">Pinterest</a> · <a href="#">LinkedIn</a> · <a href="#">RSS</a></p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Grey Matter Homes. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== SCHEMA MARKUP ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Categories — Grey Matter Homes",
+    "description": "Browse all categories on Grey Matter Homes — from architecture and interiors to materials, sustainability, and design history.",
+    "url": "https://www.greymatterhomes.com/categories.html",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Grey Matter Homes",
+      "url": "https://www.greymatterhomes.com"
+    },
+    "about": {
+      "@type": "Organization",
+      "name": "Grey Matter Homes",
+      "email": "editor@greymatterhomes.com",
+      "url": "https://www.greymatterhomes.com"
+    },
+    "dateModified": "2025-01-01"
+  }
+  </script>
+</body>
+</html>

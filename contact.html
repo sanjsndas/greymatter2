@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact · Grey Matter Homes — Interior Design & Architecture Journal</title>
+  <meta name="description" content="Get in touch with Grey Matter Homes. Editorial inquiries, advertising, and general questions. We welcome pitches and story ideas.">
+  <meta name="author" content="Grey Matter Homes Editorial Team">
+  <link rel="canonical" href="https://www.greymatterhomes.com/contact.html">
+  <meta property="og:title" content="Contact · Grey Matter Homes">
+  <meta property="og:description" content="Reach out to the editorial team for pitches, advertising, or general inquiries.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.greymatterhomes.com/contact.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #faf9f7;
+      color: #1e1e1e;
+      font-family: 'Georgia', 'Times New Roman', 'Palatino', serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Helvetica Neue', 'Arial', sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      color: #1a1a1a;
+    }
+
+    h1 { font-size: 2.4rem; margin-bottom: 0.6rem; }
+    h2 { font-size: 1.9rem; margin-bottom: 0.5rem; }
+    h3 { font-size: 1.4rem; margin-bottom: 0.4rem; }
+    h4 { font-size: 1.15rem; margin-bottom: 0.3rem; }
+    p { margin-bottom: 1.2rem; font-size: 1.06rem; color: #2a2a2a; }
+    a { color: #2a2a2a; text-decoration: none; transition: color 0.2s; }
+    a:hover { color: #7a5c3a; }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      border-bottom: 1px solid #e0ddd8;
+      background: #faf9f7;
+      padding: 24px 0 16px;
+    }
+
+    .header-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 2.1rem;
+      font-weight: 600;
+      letter-spacing: -0.04em;
+      color: #1e1e1e;
+    }
+
+    .brand-logo span {
+      font-weight: 300;
+      color: #7a5c3a;
+    }
+
+    .brand-tagline {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: #7a7a7a;
+      border-left: 1px solid #d0cdc8;
+      padding-left: 12px;
+    }
+
+    .header-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 450;
+      color: #3a3a3a;
+    }
+
+    .header-nav a {
+      color: #3a3a3a;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 2px;
+    }
+
+    .header-nav a:hover {
+      border-bottom-color: #7a5c3a;
+      color: #1e1e1e;
+    }
+
+    /* ---------- CONTACT PAGE GRID ---------- */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      margin: 56px 0 64px;
+      align-items: start;
+    }
+
+    @media (max-width: 900px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 48px;
+      }
+    }
+
+    /* ---------- CONTACT FORM ---------- */
+    .contact-form-wrapper {
+      background: #ffffff;
+      border: 1px solid #e0ddd8;
+      padding: 40px 36px;
+      border-radius: 2px;
+    }
+
+    .contact-form-wrapper h2 {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+
+    .contact-form-wrapper .subhead {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.95rem;
+      color: #5a5a5a;
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e0ddd8;
+    }
+
+    .form-group {
+      margin-bottom: 22px;
+    }
+
+    .form-group label {
+      display: block;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #3a3a3a;
+      margin-bottom: 6px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid #d0cdc8;
+      background: #faf9f7;
+      font-family: 'Georgia', serif;
+      font-size: 1rem;
+      color: #1e1e1e;
+      border-radius: 2px;
+      outline: none;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: #7a5c3a;
+      background: #ffffff;
+    }
+
+    .form-group textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .form-group select {
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a7a7a' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      padding-right: 40px;
+    }
+
+    .form-group .hint {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.78rem;
+      color: #8a8a8a;
+      margin-top: 4px;
+    }
+
+    .submit-btn {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 14px 40px;
+      background: #1e1e1e;
+      color: #ffffff;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-top: 8px;
+    }
+
+    .submit-btn:hover {
+      background: #7a5c3a;
+    }
+
+    /* ---------- CONTACT INFO PANEL ---------- */
+    .contact-info-panel {
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    .contact-info-panel h2 {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+
+    .contact-info-panel .intro-text {
+      font-family: 'Georgia', serif;
+      font-size: 1.06rem;
+      color: #3a3a3a;
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #e0ddd8;
+    }
+
+    .contact-block {
+      margin-bottom: 32px;
+    }
+
+    .contact-block h4 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #7a7a7a;
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+
+    .contact-block p {
+      font-family: 'Georgia', serif;
+      font-size: 1rem;
+      color: #2a2a2a;
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
+
+    .contact-block a {
+      color: #7a5c3a;
+      border-bottom: 1px solid transparent;
+    }
+
+    .contact-block a:hover {
+      border-bottom-color: #7a5c3a;
+    }
+
+    .contact-block .detail-line {
+      display: flex;
+      gap: 10px;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+
+    .contact-block .detail-line .label {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.85rem;
+      color: #7a7a7a;
+      min-width: 80px;
+      font-weight: 400;
+    }
+
+    .contact-block .detail-line .value {
+      font-family: 'Georgia', serif;
+      font-size: 1rem;
+      color: #1e1e1e;
+    }
+
+    /* ---------- OFFICE HOURS ---------- */
+    .hours-list {
+      list-style: none;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    .hours-list li {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+      color: #2a2a2a;
+      padding: 8px 0;
+      border-bottom: 1px solid #f0ede8;
+    }
+
+    .hours-list li:last-child {
+      border-bottom: none;
+    }
+
+    .hours-list .day {
+      font-weight: 400;
+      color: #3a3a3a;
+    }
+
+    .hours-list .time {
+      color: #7a7a7a;
+    }
+
+    /* ---------- RESPONSE PROMISE ---------- */
+    .response-promise {
+      background: #f2efea;
+      border-left: 3px solid #7a5c3a;
+      padding: 18px 22px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.92rem;
+      color: #3a3a3a;
+      border-radius: 0 2px 2px 0;
+      margin-top: 28px;
+    }
+
+    .response-promise strong {
+      color: #1e1e1e;
+    }
+
+    /* ---------- MAP / LOCATION (simple placeholder) ---------- */
+    .location-note {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid #e0ddd8;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.9rem;
+      color: #5a5a5a;
+    }
+
+    .location-note .address {
+      font-family: 'Georgia', serif;
+      font-size: 1rem;
+      color: #1e1e1e;
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+
+    /* ---------- FAQ MINI (reuse style from homepage) ---------- */
+    .faq-section {
+      margin: 64px 0;
+      border-top: 1px solid #e0ddd8;
+      padding-top: 48px;
+    }
+
+    .section-label {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: #7a7a7a;
+      border-bottom: 1px solid #e0ddd8;
+      padding-bottom: 10px;
+      margin-bottom: 28px;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #e0ddd8;
+      padding: 20px 0;
+    }
+
+    .faq-question {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #1e1e1e;
+    }
+
+    .faq-question:hover {
+      color: #7a5c3a;
+    }
+
+    .faq-question .icon {
+      font-size: 1.4rem;
+      color: #7a5c3a;
+      font-weight: 300;
+      transition: transform 0.2s;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      font-size: 1rem;
+      color: #4a4a4a;
+      padding-right: 24px;
+    }
+
+    .faq-answer.open {
+      max-height: 300px;
+      padding-top: 12px;
+    }
+
+    /* ---------- NEWSLETTER (same as homepage) ---------- */
+    .newsletter {
+      background: #f2efea;
+      border: 1px solid #e0ddd8;
+      padding: 48px 40px;
+      margin: 64px 0;
+      text-align: center;
+      border-radius: 2px;
+    }
+
+    .newsletter h3 {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+    }
+
+    .newsletter p {
+      font-size: 1rem;
+      color: #4a4a4a;
+      max-width: 560px;
+      margin: 0 auto 24px;
+    }
+
+    .newsletter-form {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .newsletter-form input {
+      padding: 14px 18px;
+      min-width: 280px;
+      border: 1px solid #d0cdc8;
+      background: #ffffff;
+      font-family: 'Georgia', serif;
+      font-size: 1rem;
+      border-radius: 2px;
+      outline: none;
+    }
+
+    .newsletter-form input:focus {
+      border-color: #7a5c3a;
+    }
+
+    .newsletter-form button {
+      padding: 14px 32px;
+      background: #1e1e1e;
+      color: #ffffff;
+      border: none;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 2px;
+      transition: background 0.2s;
+    }
+
+    .newsletter-form button:hover {
+      background: #7a5c3a;
+    }
+
+    /* ---------- INFO SECTIONS (footer-style) ---------- */
+    .info-sections {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      margin: 64px 0 32px;
+      padding-top: 48px;
+      border-top: 1px solid #e0ddd8;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    @media (max-width: 800px) {
+      .info-sections {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .info-sections {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    .info-sections h4 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #7a7a7a;
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+
+    .info-sections p,
+    .info-sections li {
+      font-size: 0.9rem;
+      color: #3a3a3a;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .info-sections ul {
+      list-style: none;
+    }
+
+    .info-sections a {
+      color: #3a3a3a;
+    }
+
+    .info-sections a:hover {
+      color: #7a5c3a;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      border-top: 1px solid #e0ddd8;
+      padding: 40px 0 32px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.85rem;
+      color: #7a7a7a;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+    }
+
+    .footer-links a {
+      color: #7a7a7a;
+    }
+
+    .footer-links a:hover {
+      color: #1e1e1e;
+    }
+
+    /* ---------- UTILITY ---------- */
+    .hidden {
+      display: none !important;
+    }
+
+    .mt-4 { margin-top: 32px; }
+    .mb-4 { margin-bottom: 32px; }
+  </style>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-logo">Grey Matter <span>Homes</span></div>
+        <div class="brand-tagline">Interior & Architecture Journal</div>
+      </div>
+      <nav class="header-nav" aria-label="Primary navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="terms.html">Terms Of Privacy</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="cookies.html">Cookies Policy</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+        <li><a href="categories.html">Categories</a></li>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ========== CONTACT GRID ========== -->
+    <div class="contact-grid">
+
+      <!-- LEFT: CONTACT FORM -->
+      <div class="contact-form-wrapper">
+        <h2>Send a message</h2>
+        <p class="subhead">We read every message. Expect a reply within two business days.</p>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Alex Morgan" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="editorial">Editorial inquiry / pitch</option>
+              <option value="advertising">Advertising & partnerships</option>
+              <option value="general">General question</option>
+              <option value="feedback">Feedback on an article</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us what's on your mind…" required></textarea>
+            <div class="hint">Please include relevant links or context if pitching an article.</div>
+          </div>
+          <button type="submit" class="submit-btn">Send message</button>
+        </form>
+      </div>
+
+      <!-- RIGHT: CONTACT INFO -->
+      <div class="contact-info-panel">
+        <h2>Get in touch</h2>
+        <p class="intro-text">Grey Matter Homes is an independent editorial publication. We welcome story pitches, research collaborations, and advertising inquiries from like-minded partners.</p>
+
+        <!-- Editorial -->
+        <div class="contact-block">
+          <h4>Editorial</h4>
+          <div class="detail-line">
+            <span class="label">Email</span>
+            <span class="value"><a href="mailto:editor@greymatterhomes.com">editor@greymatterhomes.com</a></span>
+          </div>
+          <div class="detail-line">
+            <span class="label">Pitches</span>
+            <span class="value"><a href="mailto:pitches@greymatterhomes.com">pitches@greymatterhomes.com</a></span>
+          </div>
+          <p style="font-size: 0.9rem; color: #5a5a5a; margin-top: 8px; font-family: 'Helvetica Neue', sans-serif;">We accept pitches for in-depth articles, case studies, and research summaries. Please include an outline and your credentials.</p>
+        </div>
+
+        <!-- Advertising -->
+        <div class="contact-block">
+          <h4>Advertising & Partnerships</h4>
+          <div class="detail-line">
+            <span class="label">Email</span>
+            <span class="value"><a href="mailto:ads@greymatterhomes.com">ads@greymatterhomes.com</a></span>
+          </div>
+          <div class="detail-line">
+            <span class="label">Media kit</span>
+            <span class="value"><a href="#">Download (PDF, 2.4 MB)</a></span>
+          </div>
+        </div>
+
+        <!-- Office / Studio -->
+        <div class="contact-block">
+          <h4>Studio & mailing address</h4>
+          <p style="font-family: 'Georgia', serif; font-size: 1rem; color: #1e1e1e; line-height: 1.6;">
+            Grey Matter Homes<br>
+            14 Granary Row, Suite 3B<br>
+            London, EC1R 5HL<br>
+            United Kingdom
+          </p>
+        </div>
+
+        <!-- Office hours -->
+        <div class="contact-block">
+          <h4>Editorial hours</h4>
+          <ul class="hours-list">
+            <li><span class="day">Monday – Thursday</span><span class="time">9:00 – 17:30 GMT</span></li>
+            <li><span class="day">Friday</span><span class="time">9:00 – 16:00 GMT</span></li>
+            <li><span class="day">Saturday – Sunday</span><span class="time">Closed</span></li>
+          </ul>
+        </div>
+
+        <!-- Response promise -->
+        <div class="response-promise">
+          <strong>Our promise:</strong> We aim to respond to all editorial and advertising inquiries within two business days. For urgent press inquiries, please call <a href="tel:+442079460123" style="color: #7a5c3a; border-bottom: 1px solid #7a5c3a;">+44 (0)20 7946 0123</a> during office hours.
+        </div>
+
+        <!-- Location note (virtual) -->
+        <div class="location-note">
+          <strong>Visits by appointment only.</strong>
+          <div class="address">
+            We are a small editorial team and work remotely part of the week. Please email to schedule a meeting or studio visit.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== FAQ (reused from homepage) ========== -->
+    <section class="faq-section" id="faq">
+      <div class="section-label">Contact & Submission FAQ</div>
+      <div class="faq-item">
+        <div class="faq-question">How do I pitch an article to Grey Matter Homes? <span class="icon">+</span></div>
+        <div class="faq-answer">Send a concise pitch to <a href="mailto:pitches@greymatterhomes.com" style="color:#7a5c3a;">pitches@greymatterhomes.com</a> with the subject line "Pitch: [Topic]". Include a working title, a 2–3 paragraph summary, and a short bio. We welcome perspectives from architects, designers, researchers, and experienced writers. We typically respond within 5–7 days.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Do you accept guest posts or sponsored content? <span class="icon">+</span></div>
+        <div class="faq-answer">We occasionally accept carefully vetted sponsored content that aligns with our editorial standards. All sponsored content is clearly labeled. For rates and guidelines, contact <a href="mailto:ads@greymatterhomes.com" style="color:#7a5c3a;">ads@greymatterhomes.com</a>.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Can I republish an article from your site? <span class="icon">+</span></div>
+        <div class="faq-answer">Unless otherwise noted, all content is copyrighted. You may quote up to 100 words with a link back to the original article. For full republishing requests, please email <a href="mailto:editor@greymatterhomes.com" style="color:#7a5c3a;">editor@greymatterhomes.com</a>.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">I have a product or material to suggest for review. Where do I send it? <span class="icon">+</span></div>
+        <div class="faq-answer">We're always looking for innovative materials and products. Please send a brief description and high-resolution images to <a href="mailto:editor@greymatterhomes.com" style="color:#7a5c3a;">editor@greymatterhomes.com</a> with "Product submission" in the subject line. Due to volume, we cannot guarantee coverage.</div>
+      </div>
+    </section>
+
+    <!-- ========== NEWSLETTER (same as homepage) ========== -->
+    <section class="newsletter">
+      <h3>Stay Informed. Stay Inspired.</h3>
+      <p>Join 12,000+ architects, designers, and homeowners who receive our weekly digest of new articles, research, and practical guides. No spam, ever.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Your email address" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+      <p style="font-size: 0.8rem; margin-top: 16px; color: #7a7a7a;">We respect your privacy. Unsubscribe anytime.</p>
+    </section>
+
+    <!-- ========== INFO SECTIONS (About / Contact / Privacy / Follow) ========== -->
+    <div class="info-sections" id="info">
+      <div>
+        <h4>About</h4>
+        <p>Grey Matter Homes is an independent editorial publication dedicated to interior design, architecture, and the built environment. We publish in-depth articles, research, and practical guides for professionals and enthusiasts.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Editorial: <a href="mailto:editor@greymatterhomes.com">editor@greymatterhomes.com</a></p>
+        <p>Advertising: <a href="mailto:ads@greymatterhomes.com">ads@greymatterhomes.com</a></p>
+        <p>We welcome pitches and story ideas.</p>
+      </div>
+      <div>
+        <h4>Privacy & Terms</h4>
+        <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+        <p><a href="cookies.html">Cookie Policy</a> · <a href="#">Accessibility</a></p>
+        <p>© 2025 Grey Matter Homes. All rights reserved.</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p><a href="#">Instagram</a> · <a href="#">Pinterest</a> · <a href="#">LinkedIn</a> · <a href="#">RSS</a></p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Grey Matter Homes. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== JAVASCRIPT ========== -->
+  <script>
+    (function() {
+      // ---------- FAQ TOGGLE ----------
+      const faqQuestions = document.querySelectorAll('.faq-question');
+      faqQuestions.forEach(question => {
+        question.addEventListener('click', function() {
+          const answer = this.nextElementSibling;
+          const icon = this.querySelector('.icon');
+          answer.classList.toggle('open');
+          icon.textContent = answer.classList.contains('open') ? '−' : '+';
+        });
+      });
+
+      // ---------- CONTACT FORM (prevent default + simple validation) ----------
+      const contactForm = document.getElementById('contactForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const name = document.getElementById('name').value.trim();
+          const email = document.getElementById('email').value.trim();
+          const message = document.getElementById('message').value.trim();
+          if (!name || !email || !message) {
+            alert('Please fill in all required fields (name, email, message).');
+            return;
+          }
+          // Simulate successful submission
+          alert('Thank you, ' + name + '. Your message has been sent. We\'ll reply to ' + email + ' within two business days.');
+          contactForm.reset();
+        });
+      }
+
+      // ---------- NEWSLETTER FORM (prevent default) ----------
+      const newsletterForm = document.getElementById('newsletterForm');
+      if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const input = this.querySelector('input[type="email"]');
+          if (input && input.value.trim()) {
+            alert('Thank you for subscribing! You will receive a confirmation email shortly.');
+            input.value = '';
+          }
+        });
+      }
+
+      // ---------- SMOOTH SCROLL FOR IN-PAGE LINKS ----------
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href === '#') return;
+          const target = document.querySelector(href);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+
+    })();
+  </script>
+
+  <!-- SCHEMA MARKUP (ContactPage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Grey Matter Homes",
+    "description": "Contact page for Grey Matter Homes — editorial inquiries, advertising, and general questions.",
+    "url": "https://www.greymatterhomes.com/contact.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Grey Matter Homes",
+      "email": "editor@greymatterhomes.com",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "editorial",
+          "email": "editor@greymatterhomes.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "advertising",
+          "email": "ads@greymatterhomes.com"
+        }
+      ]
+    }
+  }
+  </script>
+</body>
+</html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Grey Matter Homes | Interior Design & Architecture Journal</title>
+  <meta name="description" content="Learn about Grey Matter Homes — an independent editorial publication exploring interior design, architecture, materials, and modern living. Meet the team and our editorial principles.">
+  <meta name="author" content="Grey Matter Homes Editorial Team">
+  <link rel="canonical" href="https://www.greymatterhomes.com/about.html">
+  <meta property="og:title" content="About — Grey Matter Homes">
+  <meta property="og:description" content="Independent editorial publication exploring interior design, architecture, materials, and modern living.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.greymatterhomes.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About — Grey Matter Homes">
+  <meta name="twitter:description" content="Independent editorial publication exploring interior design, architecture, materials, and modern living.">
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #faf9f7;
+      color: #1e1e1e;
+      font-family: 'Georgia', 'Times New Roman', 'Palatino', serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Helvetica Neue', 'Arial', sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      color: #1a1a1a;
+    }
+
+    h1 { font-size: 2.4rem; margin-bottom: 0.6rem; }
+    h2 { font-size: 1.9rem; margin-bottom: 0.5rem; }
+    h3 { font-size: 1.4rem; margin-bottom: 0.4rem; }
+    h4 { font-size: 1.15rem; margin-bottom: 0.3rem; }
+    p { margin-bottom: 1.2rem; font-size: 1.06rem; color: #2a2a2a; }
+    a { color: #2a2a2a; text-decoration: none; transition: color 0.2s; }
+    a:hover { color: #7a5c3a; }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      border-bottom: 1px solid #e0ddd8;
+      background: #faf9f7;
+      padding: 24px 0 16px;
+    }
+
+    .header-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 2.1rem;
+      font-weight: 600;
+      letter-spacing: -0.04em;
+      color: #1e1e1e;
+    }
+
+    .brand-logo span {
+      font-weight: 300;
+      color: #7a5c3a;
+    }
+
+    .brand-tagline {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: #7a7a7a;
+      border-left: 1px solid #d0cdc8;
+      padding-left: 12px;
+    }
+
+    .header-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 450;
+      color: #3a3a3a;
+      list-style: none;
+    }
+
+    .header-nav a {
+      color: #3a3a3a;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 2px;
+    }
+
+    .header-nav a:hover {
+      border-bottom-color: #7a5c3a;
+      color: #1e1e1e;
+    }
+
+    /* ---------- ABOUT HERO ---------- */
+    .about-hero {
+      margin: 48px 0 32px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .about-hero-text h1 {
+      font-size: 2.8rem;
+      margin-bottom: 16px;
+      letter-spacing: -0.03em;
+    }
+
+    .about-hero-text .lead {
+      font-size: 1.2rem;
+      color: #4a4a4a;
+      max-width: 560px;
+    }
+
+    .about-hero-image img {
+      width: 100%;
+      height: auto;
+      max-height: 380px;
+      object-fit: cover;
+      border-radius: 2px;
+      display: block;
+    }
+
+    @media (max-width: 800px) {
+      .about-hero {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-top: 32px;
+      }
+      .about-hero-text h1 {
+        font-size: 2.2rem;
+      }
+    }
+
+    /* ---------- MISSION / VALUES ---------- */
+    .mission-section {
+      margin: 64px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 40px;
+    }
+
+    .mission-card {
+      background: #ffffff;
+      border: 1px solid #e0ddd8;
+      padding: 32px 28px;
+      border-radius: 2px;
+      transition: border-color 0.2s;
+    }
+
+    .mission-card:hover {
+      border-color: #7a5c3a;
+    }
+
+    .mission-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+      color: #1a1a1a;
+    }
+
+    .mission-card p {
+      font-size: 0.98rem;
+      color: #4a4a4a;
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 800px) {
+      .mission-section {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    /* ---------- TEAM ---------- */
+    .team-section {
+      margin: 72px 0;
+    }
+
+    .team-section h2 {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #e0ddd8;
+      padding-bottom: 16px;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+
+    @media (max-width: 700px) {
+      .team-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+    }
+
+    .team-member {
+      text-align: left;
+    }
+
+    .team-member img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 2px;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .team-member h4 {
+      font-size: 1.15rem;
+      margin-bottom: 4px;
+    }
+
+    .team-member .role {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #7a5c3a;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .team-member p {
+      font-size: 0.95rem;
+      color: #4a4a4a;
+      line-height: 1.5;
+    }
+
+    /* ---------- EDITORIAL PRINCIPLES ---------- */
+    .principles-section {
+      margin: 72px 0;
+      background: #f2efea;
+      border: 1px solid #e0ddd8;
+      padding: 48px 40px;
+      border-radius: 2px;
+    }
+
+    .principles-section h2 {
+      margin-bottom: 16px;
+    }
+
+    .principles-section .subhead {
+      font-size: 1.1rem;
+      color: #4a4a4a;
+      max-width: 720px;
+      margin-bottom: 32px;
+    }
+
+    .principles-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px 48px;
+      list-style: none;
+    }
+
+    .principles-list li {
+      font-size: 1rem;
+      color: #2a2a2a;
+      padding-left: 28px;
+      position: relative;
+      line-height: 1.5;
+    }
+
+    .principles-list li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: #7a5c3a;
+      font-weight: 600;
+    }
+
+    @media (max-width: 650px) {
+      .principles-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      .principles-section {
+        padding: 32px 24px;
+      }
+    }
+
+    /* ---------- QUOTE ---------- */
+    .pull-quote {
+      margin: 64px 0;
+      padding: 40px 48px;
+      border-left: 4px solid #7a5c3a;
+      background: #f8f6f3;
+    }
+
+    .pull-quote blockquote {
+      font-size: 1.5rem;
+      font-style: italic;
+      color: #1e1e1e;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      font-family: 'Georgia', serif;
+    }
+
+    .pull-quote cite {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.9rem;
+      font-style: normal;
+      color: #7a5c3a;
+      letter-spacing: 0.04em;
+    }
+
+    @media (max-width: 600px) {
+      .pull-quote {
+        padding: 28px 24px;
+      }
+      .pull-quote blockquote {
+        font-size: 1.2rem;
+      }
+    }
+
+    /* ---------- INFO SECTIONS (shared with homepage style) ---------- */
+    .info-sections {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      margin: 64px 0 32px;
+      padding-top: 48px;
+      border-top: 1px solid #e0ddd8;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    @media (max-width: 800px) {
+      .info-sections {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .info-sections {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    .info-sections h4 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #7a7a7a;
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+
+    .info-sections p,
+    .info-sections li {
+      font-size: 0.9rem;
+      color: #3a3a3a;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .info-sections ul {
+      list-style: none;
+    }
+
+    .info-sections a {
+      color: #3a3a3a;
+    }
+
+    .info-sections a:hover {
+      color: #7a5c3a;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      border-top: 1px solid #e0ddd8;
+      padding: 40px 0 32px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 0.85rem;
+      color: #7a7a7a;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+    }
+
+    .footer-links a {
+      color: #7a7a7a;
+    }
+
+    .footer-links a:hover {
+      color: #1e1e1e;
+    }
+
+    /* ---------- UTILITY ---------- */
+    .mt-4 { margin-top: 32px; }
+    .mb-4 { margin-bottom: 32px; }
+  </style>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-logo">Grey Matter <span>Homes</span></div>
+        <div class="brand-tagline">Interior & Architecture Journal</div>
+      </div>
+      <nav aria-label="Primary navigation">
+        <ul class="header-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ========== ABOUT HERO ========== -->
+    <section class="about-hero">
+      <div class="about-hero-text">
+        <h1>We believe good design begins with curiosity.</h1>
+        <p class="lead">Grey Matter Homes is an independent editorial journal for people who think deeply about the spaces they inhabit — and the materials, light, and structure that shape them.</p>
+      </div>
+      <div class="about-hero-image">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=500&fit=crop" alt="Bright, minimalist interior with natural wood and soft textiles — the Grey Matter Homes aesthetic.">
+      </div>
+    </section>
+
+    <!-- ========== MISSION / VALUES ========== -->
+    <section class="mission-section">
+      <div class="mission-card">
+        <h3>Independent & Ad-Free</h3>
+        <p>We are not beholden to advertisers or brands. Our recommendations are based on research, experience, and a genuine desire to help our readers make better design decisions.</p>
+      </div>
+      <div class="mission-card">
+        <h3>Rigorous & Practical</h3>
+        <p>Every article is grounded in real-world application — from material science to space planning. We combine editorial depth with actionable guidance you can use.</p>
+      </div>
+      <div class="mission-card">
+        <h3>Timeless over Trendy</h3>
+        <p>We cover trends, but we prioritize principles. Our goal is to help you create spaces that endure — functionally, aesthetically, and environmentally.</p>
+      </div>
+    </section>
+
+    <!-- ========== PULL QUOTE ========== -->
+    <div class="pull-quote">
+      <blockquote>“The best rooms are not the ones that shout the loudest, but the ones that hold you quietly and let you live well.”</blockquote>
+      <cite>— Elena Marchetti, Contributing Editor</cite>
+    </div>
+
+    <!-- ========== TEAM ========== -->
+    <section class="team-section">
+      <h2>Editorial Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop" alt="Portrait of Elena Marchetti, Contributing Editor">
+          <h4>Elena Marchetti</h4>
+          <div class="role">Contributing Editor</div>
+          <p>Elena is a residential designer with 15+ years of experience. She covers interior design, material innovation, and the intersection of craft and sustainability.</p>
+        </div>
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Portrait of Marcus Chen, Architecture Editor">
+          <h4>Marcus Chen</h4>
+          <div class="role">Architecture Editor</div>
+          <p>Marcus is a licensed architect and urbanist. He writes about adaptive reuse, passive design, and the social impact of the built environment.</p>
+        </div>
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop" alt="Portrait of Priya Nair, Materials & Research Editor">
+          <h4>Priya Nair</h4>
+          <div class="role">Materials & Research Editor</div>
+          <p>Priya holds a background in materials science and sustainable construction. She investigates the life cycle of building products and finishes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDITORIAL PRINCIPLES ========== -->
+    <section class="principles-section">
+      <h2>Our Editorial Principles</h2>
+      <p class="subhead">These are the standards that guide every article, review, and guide we publish.</p>
+      <ul class="principles-list">
+        <li><strong>Accuracy first.</strong> We fact-check, cite sources, and correct errors promptly and transparently.</li>
+        <li><strong>No pay-for-play.</strong> We do not accept payment for coverage. Sponsored content is clearly labelled.</li>
+        <li><strong>Real-world testing.</strong> Where possible, we test materials, visit projects, and interview practitioners.</li>
+        <li><strong>Inclusive design.</strong> We believe good design should serve diverse bodies, budgets, and ways of living.</li>
+        <li><strong>Sustainability matters.</strong> We evaluate the environmental impact of materials and methods — not just their look.</li>
+        <li><strong>Reader trust.</strong> Your attention is valuable. We aim to earn it with every article we publish.</li>
+      </ul>
+    </section>
+
+    <!-- ========== INFO SECTIONS (ABOUT / CONTACT / PRIVACY / FOLLOW) ========== -->
+    <div class="info-sections" id="info">
+      <div>
+        <h4>About</h4>
+        <p>Grey Matter Homes is an independent editorial publication dedicated to interior design, architecture, and the built environment. We publish in-depth articles, research, and practical guides for professionals and enthusiasts.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Editorial: <a href="mailto:editor@greymatterhomes.com">editor@greymatterhomes.com</a></p>
+        <p>Advertising: <a href="mailto:ads@greymatterhomes.com">ads@greymatterhomes.com</a></p>
+        <p>We welcome pitches and story ideas.</p>
+      </div>
+      <div>
+        <h4>Privacy & Terms</h4>
+        <p><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a></p>
+        <p><a href="#">Cookie Policy</a> · <a href="#">Accessibility</a></p>
+        <p>© 2025 Grey Matter Homes. All rights reserved.</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p><a href="#">Instagram</a> · <a href="#">Pinterest</a> · <a href="#">LinkedIn</a> · <a href="#">RSS</a></p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Grey Matter Homes. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== SCHEMA MARKUP ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About — Grey Matter Homes",
+    "description": "Learn about Grey Matter Homes — an independent editorial publication exploring interior design, architecture, materials, and modern living.",
+    "url": "https://www.greymatterhomes.com/about.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Grey Matter Homes",
+      "description": "Independent editorial publication exploring interior design, architecture, materials, space planning, lighting, and modern living.",
+      "foundingDate": "2020",
+      "url": "https://www.greymatterhomes.com",
+      "email": "editor@greymatterhomes.com",
+      "employee": [
+        { "@type": "Person", "name": "Elena Marchetti", "jobTitle": "Contributing Editor" },
+        { "@type": "Person", "name": "Marcus Chen", "jobTitle": "Architecture Editor" },
+        { "@type": "Person", "name": "Priya Nair", "jobTitle": "Materials & Research Editor" }
+      ]
+    }
+  }
+  </script>
+</body>
+</html>
